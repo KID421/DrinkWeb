@@ -6,24 +6,27 @@
     font-family: 微軟正黑體;
     /* 字體顏色 c#XXX */
     color: #ffffff;
+
+    margin: 0;
+    padding: 0;
 }
 
-body {
+body, html {
     /* 高度 h100p */
     height: 100%;
     /* 背景圖片 bgi */
     background-image: url("https://images.unsplash.com/photo-1483962550854-480cf765f227?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80");
     /* 背景大小 bgz */
-    background-size: 150%;
+    background-size: cover;
 }
 
 /* 盒子區塊 */
 #box {
     /* background-color: rgba(255, 0, 0, 0.3); */
     height: 500px;
-    width: 800px;
+    width: 900px;
     /* 外距：上 右 下 左 */
-    margin: 100px auto 0 auto;
+    margin: 20px auto 0 auto;
 }
 
 /* 導覽列區塊 */
@@ -36,7 +39,7 @@ nav a {
     /* 邊框底部 bdb */
     border-bottom: 1.5px solid #fff;
     /* 內距 p */
-    padding: 7px 5px;
+    padding: 7px 10px;
 }
 
 /* hover 滑入 */
@@ -54,6 +57,10 @@ nav div {
     float: right;
 }
 
+nav div a {
+    margin-left: 40px;
+}
+
 /* 內容區塊 */
 #content {
     width: 50%;
@@ -62,8 +69,12 @@ nav div {
 
 #content a {
     border: 0.5px solid #fff;
-    padding: 10px 15px;
+    padding: 20px 50px;
     background-color: rgba(47, 81, 112, 0.4);
+}
+
+#content p {
+    margin: 50px 0;
 }
 
 #content a:hover {
@@ -85,6 +96,24 @@ nav div {
     display: inline-block;
 }
 
+#button a.button-mr {
+    margin-right: 100px;
+}
+
 #button a:hover {
     background-color: rgba(47, 81, 112, 0);
+}
+
+footer {
+    background-color: rgba(47, 81, 112, 0.4);
+    /* 定位：固定 psf */
+    position: fixed;
+    /* 底部距離 0 b0 */
+    bottom: 0;
+
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    /* 行高與高度相同：垂直至中，僅限一行內容 */
+    line-height: 60px;
 }
