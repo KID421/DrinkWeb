@@ -1,7 +1,7 @@
 /* 所有元素 */
 * {
     /* 邊框 - bd */
-    border: 0.5px solid rgba(255, 0, 0, 0.3);
+    border: 0.5px solid rgba(255, 0, 0, 0);
     /* 字型 ff */
     font-family: 微軟正黑體;
     /* 字體顏色 c#XXX */
@@ -21,6 +21,9 @@ body {
 #box {
     /* background-color: rgba(255, 0, 0, 0.3); */
     height: 500px;
+    width: 800px;
+    /* 外距：上 右 下 左 */
+    margin: 100px auto 0 auto;
 }
 
 /* 導覽列區塊 */
@@ -54,6 +57,7 @@ nav div {
 /* 內容區塊 */
 #content {
     width: 50%;
+    margin-top: 100px;
 }
 
 #content a {
@@ -67,11 +71,18 @@ nav div {
 }
 
 /* 按扭區塊 */
+#button {
+    text-align: center;
+    margin-top: 50px;
+}
+
 #button a {
     border: 0.5px solid #fff;
-    padding: 10px 15px;
+    padding: 28px;
     background-color: rgba(47, 81, 112, 0.4);
     border-radius: 50%;
+    /* 行內區塊 dib */
+    display: inline-block;
 }
 
 #button a:hover {
