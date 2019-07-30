@@ -1,12 +1,3 @@
-body {
-    /* 高度 h100p */
-    height: 100%;
-    /* 背景圖片 bgi */
-    background-image: url("https://images.unsplash.com/photo-1483962550854-480cf765f227?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80");
-    /* 背景大小 bgz */
-    background-size: 150%;
-}
-
 /* 所有元素 */
 * {
     /* 邊框 - bd */
@@ -15,6 +6,15 @@ body {
     font-family: 微軟正黑體;
     /* 字體顏色 c#XXX */
     color: #ffffff;
+}
+
+body {
+    /* 高度 h100p */
+    height: 100%;
+    /* 背景圖片 bgi */
+    background-image: url("https://images.unsplash.com/photo-1483962550854-480cf765f227?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80");
+    /* 背景大小 bgz */
+    background-size: 150%;
 }
 
 /* 盒子區塊 */
@@ -33,10 +33,35 @@ nav a {
     /* 邊框底部 bdb */
     border-bottom: 1.5px solid #fff;
     /* 內距 p */
-    padding: 10px 0;
+    padding: 7px 5px;
+}
+
+/* hover 滑入 */
+nav a:hover {
+    background-color: rgba(47, 81, 112, 0.4);
 }
 
 a {
     /* 文字裝飾 td */
     text-decoration: none;
+}
+/* 指 nav 裡面的 div */
+nav div {
+    /* 浮動：靠右 flr */
+    float: right;
+}
+
+/* 內容區塊 */
+#content {
+    width: 50%;
+}
+
+#content a {
+    border: 0.5px solid #fff;
+    padding: 10px 15px;
+    background-color: rgba(47, 81, 112, 0.4);
+}
+
+#content a:hover {
+    background-color: rgba(47, 81, 112, 0);
 }
