@@ -41,6 +41,8 @@ nav a {
     border-bottom: 1.5px solid #fff;
     /* 內距 p */
     padding: 7px 10px;
+    /* 文字陰影 */
+    text-shadow: 0 5px 6px rgba(0, 0, 0, 0.3);
 }
 
 /* hover 滑入 */
@@ -131,4 +133,12 @@ footer {
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
     /* 外距：上 右 下 左 */
     margin: 100px auto 0 auto;
+    /* 水平置中 tac */
+    text-align: center;
+    /* 垂直置中 一行文字 */
+    line-height: 500px;
+    /* 文字大小 fz20 */
+    font-size: 20px;
+    /* 文字陰影 ts - 與區塊陰影相同 */
+    text-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
 }
