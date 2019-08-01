@@ -123,6 +123,12 @@ footer {
 #about {
     width: 800px;
     height: 500px;
-    background-image: url("https://images.unsplash.com/photo-1453825012366-3738046cb6c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80");
+    background-image: url("https://images.unsplash.com/photo-1501784050997-975d9fdb56d8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
     background-size: cover;
+    /* 邊框 bd */
+    border: 30px solid #fff;
+    /* 區塊陰影：左右位移 上下位移 模糊量 顏色 */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
+    /* 外距：上 右 下 左 */
+    margin: 100px auto 0 auto;
 }
